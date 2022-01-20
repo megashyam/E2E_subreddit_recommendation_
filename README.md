@@ -6,7 +6,7 @@ This is an end to end subreddit recommendation project using python
 ## _What is collaborative based filtering?_
 Collaborative filtering is a technique that can filter out items that a user might like on the basis of reactions by similar users.
 
-![alt_text](
+![lisa](https://github.com/megashyam/E2E_subreddit_recommendation_/blob/main/preproccesing/gif.mp4)
 
 It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user. It looks at the items they like and combines them to create a ranked list of suggestions.
 
