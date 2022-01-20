@@ -1,6 +1,6 @@
 # E2E_subreddit_recommendation_
 This is an end to end subreddit recommendation project using python 
-![](https://github.com/megashyam/E2E_subreddit_recommendation_/blob/main/preproccesing/gify.gif)
+![](https://github.com/megashyam/E2E_subreddit_recommendation_/blob/main/preproccesing/videogify.gif)
 
 
 
