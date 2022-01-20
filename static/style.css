@@ -1,11 +1,11 @@
-.movie {
+.subreddit {
 	color: #fff;
 	margin-left: auto;
 	margin-right: auto;
 	resize: none;
 }
 
-.movie-content {
+.subreddit-content {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-around;
@@ -13,7 +13,7 @@
 
 }
 
-.movie-content > div {
+.subreddit-content > div {
     margin:10px;
     border-radius:10px;
     background-color: lightgrey;
@@ -77,8 +77,6 @@ h1 {
 }
 
 
-
-
 .fig {
 	display: flex;
 	align-items: center;
@@ -105,14 +103,4 @@ h1 {
 
 .card-btn {
 	border-radius: 20px;
-}
-
-.imghvr {
-	position: relative;
-}
-
-
-.fail {
-	display: none;
-	color: white;
 }
