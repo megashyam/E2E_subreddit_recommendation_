@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NEW</title>
+  <title>Recommendations</title>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,12 +18,9 @@
  
 
   <link rel= "stylesheet" type= "text/css" href= "static/style.css">
-
 </head>
 
 <body id="content">
-
-
   <div class="results">
       <center>
         <h2 id="name" class="text-uppercase">{{title}}</h2>
@@ -37,11 +34,11 @@
       {% if pack|length > 1 %}
 
 
-      <div class="movie">
+      <div class="subreddit">
       <center><h3>RECOMMENDED SUBS FOR YOU</h3><h5>(Click any of the subs to get recommendation)</h5></center>
     </div>
 
-<div class="movie-content">
+<div class="subreddit-content">
       {% for sub, desc in pack.items() if not pack.hidden %}
     <div class="card" style="width: 15rem;" title="{{sub}}" >
       <h5 class="card-title">{{'r/'+sub|capitalize}}</strong></h5>
@@ -60,10 +57,6 @@
     {% endif %}    
 </div>
  
-
-
-
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </body>
